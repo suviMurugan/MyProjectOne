@@ -1,8 +1,0 @@
-#!/usr/bin/lib
-import urllib
-import json 
-
-response = urllib.urlopen("http://twitter.com/search?q=micorsoft")
-print response
-pyres = json.load(response)
-print type(pyres)
